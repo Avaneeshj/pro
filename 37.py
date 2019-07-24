@@ -5,7 +5,7 @@ d=0
 for i in range(1,a-1):
     if(b[i]>b[i-1] and b[i]>b[i+1]):
         c+=1
-    elif(b[i]<b[i-1] and b[i]>>b[i+1]):
+    elif(b[i]<b[i-1] and b[i]<b[i+1]):
         c+=1
 if(len(b)==1):
     c+=1
