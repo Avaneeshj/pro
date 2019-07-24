@@ -14,6 +14,4 @@ elif(len(b)>1):
         d+=1
     elif(b[-1]==b[-2]):
         d+=1
-    else:
-        c+=2
 print(c)
