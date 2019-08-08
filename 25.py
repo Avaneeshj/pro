@@ -9,4 +9,6 @@ for i in range(a):
         if(d<c):
             d=c
         c=1
+if(d>c):
+    c=d
 print(c)
